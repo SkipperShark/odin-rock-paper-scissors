@@ -28,7 +28,6 @@ function playRound(playerSelection, computerSelection) {
     }
 }
 
-
 function game() {
     let numRoundsToPlay = 5;
     let numRoundsPlayed = 0;
@@ -70,7 +69,6 @@ function game() {
             continue
         }
 
-
         numRoundsPlayed += 1
 
         if (playerScore >= numPointsToWin) {
@@ -85,7 +83,7 @@ function game() {
 
     // for (let i = 0; i < numRoundsToPlay; i++) {
 
-    //     // diagnostic
+    //     // diagnostic`
     //     console.log(`\n\n`)
     //     console.log(`LOOP START - rounds played : ${numRoundsPlayed}`)
     //     console.log(`LOOP START - playerScore : ${playerScore}`)
